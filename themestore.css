@@ -1,0 +1,103 @@
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: none;
+  }
+ .img-fluid{
+     width: 396px;
+     height: 292px;
+ }
+
+ .ig img{
+
+  width: 183px;
+  height: 122px;
+ }
+
+ 
+.descprice{
+  position: relative;
+}
+
+.descprice .sl {
+ position: absolute;
+ top: 120%;
+ left: 22%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ color:black;
+ font-size: 15px;
+ padding: 10px 10px;
+ border: none;
+}
+
+.hb{
+  display: none;
+}
+
+.navs li a{
+  text-decoration: none;
+}
+
+.breadcrumb a{
+  text-decoration:none;
+}
+
+@media (max-width: 620px){
+
+.hb{
+  display: inline;
+}
+
+.bc{
+  display: none;
+}
+
+.mi{
+
+  margin-left: 10px;
+}
+.ds{
+
+  margin-left: 32px;
+}
+
+.mn{
+  margin-left: 32px;
+}
+}
+
+@media (max-width: 391px){
+
+.mn{
+
+  margin-left: 100px;
+}
+
+}
